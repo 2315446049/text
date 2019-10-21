@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h5 id="h5"></h5>
+    <script>
+        var h5=document.getElementById('h5');
+        var str=prompt('请输入验证码：abcde');
+        var str1='abcde';
+        var str2='ABCDE';
+        console.log(str);
+        if(str==str1){
+             var text = document.createTextNode(str);
+              h5.appendChild(text);
+        }else if(str==str2){
+            var text = document.createTextNode(str.toLowerCase());
+            h5.appendChild(text);
+        }else{
+            alert('验证码错误');
+        }
+    </script>
+</body>
+</html>

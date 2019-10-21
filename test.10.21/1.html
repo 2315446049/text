@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+     <h1 id="h1"></h1>
+    <script>
+        var str1='123';
+        var str2='456';
+        var name= str1.concat(str2);
+        console.log(name);
+        var h1=document.getElementById('h1');
+        var text = document.createTextNode(name);
+        h1.appendChild(text);
+    </script>
+</body>
+</html>

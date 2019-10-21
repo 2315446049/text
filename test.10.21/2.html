@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="h2"></h2>
+    <script>
+        var  str='87w';
+        var str1=new String(parseFloat(str));
+        var str2=str1.padEnd(6,'0');
+         console.log(str2);
+        var h2=document.getElementById('h2');
+        var text = document.createTextNode(str2);
+        h2.appendChild(text);
+    </script>
+</body>
+</html>

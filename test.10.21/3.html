@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="h3"></h3>
+    <script>
+        var str='79387.348';
+        var str1=str.substr(0,6);  
+        var str2=str.substr(-3,2);
+        var h3=document.getElementById('h3');
+        var text = document.createTextNode(str1+str2);
+        h3.appendChild(text);
+    </script>
+</body>
+</html>
