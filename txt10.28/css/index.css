@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d5d5d5;
+}
+
+.tab {
+	width: 600px;
+	height: 400px;
+	margin: 20px 0;
+	position: relative;
+	box-shadow: 5px 5px 8px #333;
+}
+
+.pic {
+	width: 600px;
+	height: 400px;
+}
+
+.pic>div {
+	display: none;
+}
+
+.pic>div img {
+	width: 600px;
+	height: 400px;
+}
+
+.num {
+	position: absolute;
+	width: 500px;
+	bottom: -75px;
+	right: 30px;
+}
+
+.num a {
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	background-color: sandybrown;
+	color: white;
+	box-shadow: 0 0 4px #ddd;
+	margin-left: 20px;
+}
+
+.num a>img {
+	width: 50px;
+	height: 50px;
+}
+
+.control {
+	margin-top: 20px;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.control span {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: white;
+	background-color: sandybrown;
+}
+
+.control span:nth-child(1) {
+	float: left;
+}
+
+.control span:nth-child(2) {
+	float: right;
+}
+
+.num .active {
+	transform: scale(1.1);
+	background-color: white;
+	box-shadow: 0 0 3px #333;
+	color: sandybrown;
+}
+
+.big {
+	width: 800px;
+	height: 500px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	left: 700px;
+	overflow: hidden;
+}
+
+.big img {
+	width: 800px;
+	height: 500px;
+}
